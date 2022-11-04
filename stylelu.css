@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(142, 227, 99);
+}
+#header{
+    background: url(images/One\ Piece\ Luffy\ GIF\ -\ One\ Piece\ Luffy\ -\ Discover\ &\ Share\ GIFs.gif);
+    background-color: rgb(123, 251, 121);
+    border-style: ridge;
+}
+h1{
+    
+    background-size: auto;
+    text-align: center;
+    color: rgb(255, 0, 0);
+    font-size: xx-large;
+    font: weight 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-variant:small-caps;
+    font-style: italic;
+    border-radius:190px;
+}
+blockquote{
+    font-size:16px;
+    background-color: rgb(201, 253, 105);
+    text-align: center;
+    border-style:dashed;
+    border-style: double;
+}
+ol{
+   text-align: center;
+}
+p.besar:first-letter{
+    font-size: 67px;
+    color: rgb(255, 0, 0);
+}
+p.besar{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p.Besar{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    color: rgb(245, 245, 1);
+
+}
+li{
+   color: aliceblue;
+}
+p{
+    color: aliceblue;
+}
+h2{
+    color: orangered;
+
+}
