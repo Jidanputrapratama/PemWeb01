@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Implementasi flexbox</title>
+    
+</head>
+<style>
+    body{
+        background-color: rgb(248, 239, 250);
+        
+    }
+    header{
+        background-color: rgb(255, 17, 0);
+        width: 99%;
+        height: 50px;
+        margin: 10px;
+        float: left;
+        
+    }
+    aside{
+        background-color: blue;
+        height: 440px;
+        width: 233px;
+        margin: 10px;
+        float: left;
+    }
+   
+ 
+    article {
+    float:inline-start;
+    justify-content: center;
+    background-color: rgb(248, 224, 7);
+    display: flex;
+    width: 89%;
+    height: 450px;
+    margin: 10px;
+   }
+  
+   footer{
+    background-color: lightgreen;
+    width: 99%;
+    height: 107px;
+    margin: 0.8em;
+  }
+  
+ div img{
+    background-color: beige;
+    width: 300px;
+    height: 350px;
+    margin: 10px;
+ }
+  
+</style>
+  <body>
+    <header>1</header>
+    <aside>1</aside>
+    <article>
+
+        <div class="img">
+            <img src="assets/images/img_3.jpg">
+            <img src="assets/images/img_4.jpg">
+            <img src="assets/images/img_5.jpg">
+        </div>
+    </article>
+    <footer>2</footer>
+    
+   </body>
+</html>

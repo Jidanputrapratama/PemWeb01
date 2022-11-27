@@ -1,0 +1,58 @@
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    border: 1px solid;
+    margin: 0;
+}
+
+nav{
+    padding: 15px;
+    font-size: 30px;
+    background-color: rgb(220, 88, 150);
+    width: 12%;
+    height: 640px;
+
+}
+
+header{
+    padding: 15px;
+    font-size: 30px;
+    background-color: khaki;
+    padding: 1rem;
+    width: 65rem;
+    height: 5rem;
+}
+
+main{
+    display: flex;
+}
+
+main article{
+    padding: 15px;
+    font-size: 30px;
+    background-color: white;
+    flex: 3;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+main aside{
+    padding: 15px;
+    font-size: 30px;
+    background-color: aqua;
+    flex: 1;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    width: 15rem;
+    height: 26rem;
+}
+
+footer{
+    padding: 15px;
+    font-size: 30px;
+    background-color: khaki;
+    padding: 1rem;
+    width: 65rem;
+    height: 5rem;
+}
