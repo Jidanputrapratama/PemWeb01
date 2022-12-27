@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 9.4</title>
+</head>
+<body>
+    <form id="form1">
+        <input type="number" id="bilangan1" value="0" onchange="hitung()" />
+        <br>
+        <b>+</b>
+        <br>
+        <input type="number" id="bilangan2" value="0" onchange="hitung()"  />
+        <br>
+        <b>=</b>
+        <br>
+        <input type="number" id="bilangan3" value="0"> 
+    </form>
+</body>
+<script>
+    function hitung() {
+        let depan = Number(document.getElementById("bilangan1").value);
+        let belakang = Number(document.getElementById("bilangan2").value);
+        let hasil = depan + belakang;
+        document.getElementById("bilangan3").value = hasil;
+    }
+</script>
+</html>
